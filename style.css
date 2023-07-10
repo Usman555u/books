@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+main{
+    font-family:cursive;
+}
+.nav-bar{
+    height:70px;
+    background-color:lightcyan;
+    display: flex;
+}
+.right-nav{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.ul-lists{
+    display: flex;
+}
+.ul-lists li{
+    list-style: none;
+    font-size: 20px;
+    padding-right: 2pc;
+    cursor: pointer;
+    
+}
+.ul-lists li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+}
+.ul-lists li a:hover{
+    color: brown;
+}
+.left-nav{
+    width:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-family: cursive;
+}
+.phone{
+    position: relative;
+left:2pc;
+font-size: 20px;
+cursor: pointer;
+}
+.burgger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: black;
+    margin: 3px 3px;
+    height: 5px;
+
+}
+.main-section{
+    display:flex;
+    justify-content:center;
+background-color:antiquewhite;
+
+padding: 2pc 0pc;
+}
+
+.fruit-image{
+    width:400px;
+}
+.right-section{
+    max-width: 60%;
+}
+
+.btn:hover{
+    background:white;
+    color: black;
+}
+.para{
+    font-size: 20px;
+}
+.left-section{
+    max-width:40%;
+    display:flex;
+    align-items:center;
+}
+.heading{
+    font-size:3pc;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color:brown;
+    cursor:pointer;
+    border:1px solid brown;
+    color: wheat;
+    margin:0px 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.another-section{
+    display:flex;
+    margin:8pc auto;
+    justify-content: center;
+    
+}
+.firstsec{
+   max-width:45%;
+    display: flex;
+    justify-content: end;
+}
+.secondsec{
+    max-width:40%;
+    margin-left:2pc;
+    display:flex;
+    align-items: center;
+}
+.spi{
+    height: 300x;
+}
+.con{
+    margin-top:10px;
+}
+.second-btn{
+margin-bottom: 10px;
+}
+.another-section hr{
+width: 80%;
+margin:auto;
+}
+.logo{
+    height:30px;
+cursor:pointer;
+}
+.secondsec h5{
+    font-weight:bold;
+    font-size: 20px;
+}
+.more-products{
+    display: flex;
+    justify-content:center;   
+
+    
+}
+.leftsec{
+    max-width: 35%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    max-width: 100%;
+}
+.rightsec{
+    margin-left: 2pc;
+}
+.row{
+   
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.pro-image{
+    cursor: pointer;
+}
+.pro-image:hover{
+    cursor: pointer;
+    border: 4px solid blue;
+}
+.reader-section{
+    display: flex;
+    justify-content:center; 
+    background-color:rgb(250, 233, 211);    
+    align-items: center;  
+}
+.one-section{
+    max-width: 30%;
+    display: flex;
+    align-items: center;
+}
+.two-section{
+    max-width:50%;
+}
+.boxes{
+    display: flex;
+    align-items: center ;
+    background-color:white;
+    margin: 1pc;
+}
+.content{
+    max-width:80%;
+    margin:auto;
+
+}
+.small-box{
+    display: flex;
+}
+.logo-image{
+    cursor:pointer;
+}
+.up-coming{
+    max-width: 80%;
+    margin:3pc auto;
+
+}
+.first-image-section{
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.first-line{
+    height:170px;
+    background-color: aliceblue;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.first-line li a{
+    color:white;
+    cursor:pointer;
+}
+.first-line li a:hover{
+    color:brown;
+}
+.second-line{
+    height:40px;
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+    font-weight: bold;
+    font-size:1.3rem;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content: center;
+}
+

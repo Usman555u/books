@@ -1,0 +1,147 @@
+@media only  screen and (max-width:848px){
+
+    .nav-bar{
+        flex-direction:column;
+        transition: all 0.7s ease-out;
+        height: 400px;
+        align-items: center;
+        display:flex;
+        background: transparent;
+    }
+    .left-nav{
+        flex-direction: column;
+        padding: 3pc;
+        text-align: center;
+        position: relative;
+left:-1pc;
+    }
+    .right-nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align:center;
+    }
+    .ul-lists{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ul-lists li{
+        padding-bottom: 1pc;
+    }
+    .phone{
+    display: flex;
+justify-content: center;
+position: relative;
+left:-1pc;
+    }
+    .h-nav{
+height: 60px;
+    }
+    .burgger{
+        display:block;
+    }
+    .vl-lists{
+        opacity: 0;
+    }
+    .main-section{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 2pc 0pc;
+    }
+   
+   .fruit-image{
+    height: 300px;
+    width: 200px;
+}
+.spi{
+       height: 300px;
+       width: 200px;
+
+   }
+    .left-section{
+text-align: center;
+max-width: 100%;
+    }
+    .btn-res{
+   margin-bottom: 10px;
+    }
+    .another-section{
+        flex-direction:column;
+        align-items: center;
+        text-align: center;
+    }
+    .firstsec{
+        justify-content: center;
+        max-width: 100%;
+    }
+    .secondsec{
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    .more-products{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rightsec{
+margin-left: 0;
+    }
+
+    .leftsec{
+        max-width: 100%;
+    }
+    .box{
+            text-align: center;
+            margin-bottom:1pc;
+    }
+    .row{
+        flex-direction: column;
+        margin: 1pc;
+    
+    }
+    .pro-image{
+        height:300px;
+        width:200px;
+        margin-bottom: 1pc;
+    }
+    .reader-section{
+        flex-direction: column;
+    }
+    .one-section{
+        text-align: center;
+        margin-bottom:1pc;
+        max-width: 100%;
+    }
+    .two-section{
+        max-width:100%;
+    }
+    .row{
+        max-width: 100%;
+    }
+    .boxes{
+        text-align: center;
+        margin-bottom: 2pc;
+    }
+    .small-box{
+        align-items: center;
+flex-direction: column;
+    }
+    .first-line{
+        flex-direction: column;
+    max-width: 100%;  
+    height: 400px;
+    align-items: center;  
+    }
+    .logos{
+    padding-right: 2pc;
+    }
+    .up-coming{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .first-image-section{
+        max-width: 100%;
+        align-items: center;
+        justify-content: initial;
+    }
+}

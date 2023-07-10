@@ -1,0 +1,9 @@
+burgger=document.querySelector('.burgger');
+navbar=document.querySelector('.nav-bar');
+rightnav=document.querySelector('.left-nav');
+navlist=document.querySelector('.ul-lists');
+burgger.addEventListener('click',()=>{
+navbar.classList.toggle('h-nav')
+rightnav.classList.toggle('vl-lists')
+navlist.classList.toggle('vl-lists')
+})
