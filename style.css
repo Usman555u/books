@@ -83,6 +83,11 @@ padding: 2pc 0pc;
     background:white;
     color: black;
 }
+.btn a{
+    list-style:none;
+    text-decoration: none;
+    color: wheat;
+}
 .para{
     font-size: 20px;
 }
